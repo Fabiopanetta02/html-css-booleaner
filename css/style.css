@@ -1,0 +1,15 @@
+body , figure{
+    margin: 0;
+}
+
+header{
+    background-color: dodgerblue;
+    height: 180px;
+    background-image: url('../img/pattern.png');
+}
+
+.logo{
+    margin-top: 80px;
+    margin-left: 10px;
+    width: 300px;
+}
