@@ -43,3 +43,30 @@ h1{
 #spiegazione-foto{
     font-size: 12px;
 }
+
+.sottolineato{
+    background-color: yellow;
+}
+
+ul{
+    padding-left: 15px;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+thead{
+    background-color: dodgerblue;
+    color: white;
+}
+
+th, td{
+    text-align: left;
+    padding-right: 50px;
+}
+
+#azzurra{
+    background-color: aquamarine;
+}
