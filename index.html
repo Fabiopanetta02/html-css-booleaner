@@ -10,73 +10,89 @@
     <title>The Booleaner</title>
 </head>
 <body>
-    <header>
-        <figure id="logo-scritta">
-            <img src="img/logo.svg" alt="logo" class="logo">
-        </figure>
+<!-- header princiapale -->
+    <header id="main-header">
+        <div class="container">
+            <img src="img/logo.svg" alt="logo" id="logo" >
+        </div>
     </header>
 
-    <main>
-        <!-- titolo -->
-        <h1>Internet deve essere al servizio del "bene pubblico": il manifesto di Tim Berners-Lee</h1>
-        <!-- sottotitolo -->
-        <div class="sottotitolo">
-            <span>Scritto da</span><span class="text-dodgerblue"> The Booleaner</span><br>
-            <span class="date">il 10/10/2020</span>
-        </div>
-        <!-- immagini -->
-        <figure id="tim">
-            <img src="img/tim-1.jpg" alt="tim-1">
-            <img src="img/tim-2.jpg" alt="">
-        </figure>
-        <!-- spiegazione immagini -->
-        <div id="spiegazione-foto">
-            <span>1st Photo: John S. and James L. Knight Foundation, by Scott Henrichsen</span><br>
-            <span>2nd Photo: Wikimedia, by Paul Clarke</span>
-        </div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas eligendi aperiam nihil numquam in expedita accusantium laudantium, <span class="sottolineato">veniam voluptatum optio dolorem quo ipsum at!</span>  Nulla doloribus dolore amet porro consequuntur.</p>
-        <ul>
-            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-            <li>Quas eligendi aperiam nihil numquam in expedita accusantium laudantium</li>
-            <li>Nulla doloribus dolore amet porro consequuntur.</li>
-        </ul>
-        <!-- table -->
-        <table>
-            <thead>
-                <tr>
-                    <th>Lorem ipsum dolor</th>
-                    <th>Lorem ipsum dolor</th>
-                    <th class="cella3">Lorem ipsum dolor</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr class="azzurra">
-                    <td>Lorem ipsum dolor</td>
-                    <td>Lorem ipsum dolor</td>
-                    <td class="cella3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo sequi error ipsam accusantium, cumque porro eum labore iste quibusdam ab odio explicabo possimus, sapiente reprehenderit ipsa repellat quidem eius suscipit. </td>
-                </tr>
-                <tr>
-                    <td>Lorem ipsum dolor</td>
-                    <td>Lorem ipsum dolor</td>
-                    <td class="cella3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo sequi error ipsam accusantium, cumque porro eum labore iste quibusdam ab odio explicabo possimus, sapiente reprehenderit ipsa repellat quidem eius suscipit. </td>
-                </tr>
-                <tr class="azzurra">
-                    <td>Lorem ipsum dolor</td>
-                    <td>Lorem ipsum dolor</td>
-                    <td class="cella3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo sequi error ipsam accusantium, cumque porro eum labore iste quibusdam ab odio explicabo possimus, sapiente reprehenderit ipsa repellat quidem eius suscipit. </td>
-                </tr>
-            </tbody>
-        </table>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde a, <span class="sottolineato">repudiandae quia excepturi voluptas fugit,</span> laudantium nihil rem veritatis dignissimos quam esse ad placeat id, sunt pariatur! Vero, quasi reiciendis.</p>
-    </main>
-    <footer>
-        <h3 class="fine">Potrebbero interessarti</h3>
-        <div class="img1">
-            <p class="testo-img"><strong>Lorem Ipsum dolor</strong></p>
-        </div>
-        <div class="img2">
-            <p class="testo-img"><strong>Lorem Ipsum dolor</strong></p>
-        </div>
-    </footer>
+<!-- Corpo della pagina -->
+    <main class="container">
+        <article>
+            <header id="article-header">
+                <h1>Internet deve essere al servizio del "bene pubblico": il mainfesto di Tim Berners-Lee</h1>
+                <address class="text-grey">Scritto da <a href="#">The Booleaner</a> </address>
+                <time class="text-grey text-small" datetime="2020-10-10" >il 10/10/2020</time>
+            </header>
+            <!-- Immagini -->
+            <figure>
+                <img src="img/tim-1.jpg" alt="John S. and James L. Knight Foundation, by Scott Henrichsen">
+                <img src="img/tim-2.jpg" alt="Tim Berners Lee, by Paul Clarke">
+                <figcaption class="text-small">1st Photo: John S. and James L. Knight Foundation, by Scott Henrichsen <br> 
+                2nd Photo: Tim Berners Lee, by Paul Clarke
+                </figcaption>
+            </figure>
+
+            <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam, amet nobis optio molestias maiores possimus perferendis libero. <mark>Amet, obcaecati magni tenetur dolorem, fugit, commodi explicabo corporis natus animi nulla doloremque!</mark>
+            Officia deserunt possimus porro adipisci quam, ullam ex voluptate libero ad? Rerum laudantium, beatae suscipit officiis aperiam quisquam recusandae delectus excepturi voluptates fugit tempore magni. Atque corrupti repellendus illum incidunt?
+            </p>
+
+            <ul>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+            </ul>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Lorem Ipsum dolor</th>
+                        <th>Lorem Ipsum dolor</th>
+                        <th class="w-50">Lorem Ipsum dolor</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Lorem Ipsum dolor</td>
+                        <td>Lorem ipsum dolor</td>
+                        <td>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam ratione consequuntur iure quam perspiciatis quos, id eos voluptatibus recusandae? Perspiciatis eos mollitia dignissimos voluptates blanditiis, asperiores modi eius quam hic!
+                        </td>
+                    </tr>
+                    <tr class="even">
+                        <td>Lorem Ipsum dolor</td>
+                        <td>Lorem ipsum dolor</td>
+                        <td>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam ratione consequuntur iure quam perspiciatis quos, id eos voluptatibus recusandae? Perspiciatis eos mollitia dignissimos voluptates blanditiis, asperiores modi eius quam hic!
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Lorem Ipsum dolor</td>
+                        <td>Lorem ipsum dolor</td>
+                        <td>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam ratione consequuntur iure quam perspiciatis quos, id eos voluptatibus recusandae? Perspiciatis eos mollitia dignissimos voluptates blanditiis, asperiores modi eius quam hic!
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam, amet nobis optio molestias maiores possimus perferendis libero. <mark>Amet, obcaecati magni tenetur dolorem, fugit, commodi explicabo corporis natus animi nulla doloremque!</mark>
+            Officia deserunt possimus porro adipisci quam, ullam ex voluptate libero ad? Rerum laudantium, beatae suscipit officiis aperiam quisquam recusandae delectus excepturi voluptates fugit tempore magni. Atque corrupti repellendus illum incidunt?
+            </p> 
+        </article>
+
+        <aside>
+            <h2 class="text-grey">Potrebbero Interessarti</h2>
+            <div class="related-article" id="pc-article">
+                <h4 class="related-article-title">Lorem Ipsum dolor</h4>
+            </div>
+            <div class="related-article" id="graph-article">
+                <h4 class="related-article-title">Lorem Ipsum dolor</h4>
+            </div> 
+        </aside>
+    </main> 
 </body>
 </html>
